@@ -3,18 +3,18 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Heart, Sparkles } from 'lucide-react';
 import Button from '../Button';
 
-const letterText = `My Dearest,
+const letterText = `My Dearest Mariya,
 
-Every single day we spend apart only makes me realize how much you truly mean to me. The distance is hard sometimes, but it's just a test of how far our love can travel.
+Itnu miss kru chu jaan ghanu hard che yar tamara bina rehvu babu and gaya time nu yad aya kre che sunheri baug best moments best memories.
 
-I count the days until I can finally hold you in my arms again. You are my home, my favorite person, and my safe place.
+mai pachi sochi rhyo chu jaan jaldi pacha male hands hold kre hug kre tmri new style wali smooch kare and tmra sthe masti rke bhar nu khaye and swimming nu plan kare jaan.
 
-Even when we are miles apart, I carry you in my heart everywhere I go. I miss your smile, your laugh, and just simply being next to you.
+Tamari smile miss kru chu tamari msb ni story tmra career ni vato tamar dreams ni vato tamaro pyaro so gusso mari care karvu mara si sglu share karvu yaad ave che.
 
 Thank you for being the best part of my life. I promise the wait will be worth it when I finally get to see you again.
 
 Forever Yours,
-Me :)`;
+Musta :)`;
 
 export default function LetterScreen({ onNext }) {
 

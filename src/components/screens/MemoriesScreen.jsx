@@ -4,10 +4,10 @@ import { Heart, Mail } from 'lucide-react';
 import Button from '../Button';
 
 const memories = [
-    "/images/1.avif",
-    "/images/2.avif",
-    "/images/3.avif",
-    "/images/4.avif",
+    "/images/1.jpeg",
+    "/images/2.jpeg",
+    "/images/3.jpeg",
+    "/images/4.jpeg",
 ]
 
 function MemoriesScreen({ onNext }) {

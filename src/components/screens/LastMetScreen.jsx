@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { Heart } from "lucide-react";
 import Button from "../Button";
 
-const lastMetDate = "2025-01-01";
+const lastMetDate = "2026-09-17";
 
 function LastMetScreen({ onNext }) {
     const [days, setDays] = useState(0);
@@ -25,7 +25,7 @@ function LastMetScreen({ onNext }) {
     return (
         <div className="flex flex-col items-center justify-center h-full w-full text-center relative">
             <motion.p
-                className="text-lg md:text-xl text-slate-6600 font-medium uppercase tracking-wider mb-2 z-10 will-change-transform"
+                className="text-lg md:text-xl text-slate-600 font-medium uppercase tracking-wider mb-2 z-10 will-change-transform"
                 initial={{ opacity: 0, y: -20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8 }}
